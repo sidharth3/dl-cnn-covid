@@ -5,6 +5,11 @@ matplotlib (for plots)
 PIL
 skimage
 
+We have done some preprocessing which involves upsampling of the dataset. If in case the training
+needs to be performed, the code on the notebook section 'file preparation' section. After running
+this code (on a duplicate dataset directory) , the files on this directory must be copied over to the original dataset/train/normal/
+and dataset/train/infected/covid/
+
 To run the code:
 1. to train the binary model (shown the notebook cell) run !python ./train_binary.py --gpu --epochs 25 --batchsize 32 --upsample True --transform True --scheduler True --decay True
 2. To load the model (shown in the last cell of the notebook) - !python ./train_binary.py --gpu --sample True (this loads a saved model and uses it on the test set)
