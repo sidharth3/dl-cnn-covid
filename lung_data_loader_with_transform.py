@@ -241,7 +241,7 @@ class Lung_Dataset(Dataset):
         Returns the image and its label as a one hot vector, both
         in torch tensor format in dataset.
         """
-        #If we only have 2 classes
+        #For the binary case
         if self.verbose == 0 or self.verbose == 2:
             first_val = int(list(self.dataset_numbers.values())[0])
             if index < first_val:
@@ -256,7 +256,7 @@ class Lung_Dataset(Dataset):
             if self.transform:
                 im = self.transform(im)
           
-        #If we have 3 classes to consider
+        #for the case of multi-class
         elif self.verbose == 1:
             first_val = int(list(self.dataset_numbers.values())[0])
             second_val = int(list(self.dataset_numbers.values())[1])
@@ -280,5 +280,5 @@ class Lung_Dataset(Dataset):
                 im = self.transform(im)
                
         else:
-            raise TypeError("Verbose value is not 0,1 or 2")
+            raise TypeError("Classifier value is not 0,1 or 2")
         return im, label
