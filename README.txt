@@ -5,6 +5,8 @@ matplotlib (for plots)
 PIL
 skimage
 
+Main Submission with plots and results - Final_Notebook.ipynb
+
 We have done some preprocessing which involves upsampling of the dataset. If in case the training
 needs to be performed, the code on the notebook section 'file preparation' section. After running
 this code (on a duplicate dataset directory) , the files on this directory must be copied over to the original dataset/train/normal/
