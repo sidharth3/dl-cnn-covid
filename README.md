@@ -1,8 +1,8 @@
 #### External Libraries used:
-- Item  Pytorch 
-- Item  openCV (for data augmentation only)
-- Item  matplotlib 
-- Item  skimage
+- Pytorch 
+- openCV (for data augmentation only)
+- matplotlib 
+- skimage
 
 Main Submission with plots and results - Final_Notebook.ipynb
 
@@ -17,10 +17,10 @@ and dataset/train/infected/covid/
 The saved model path = model_2021_03_21-07_34_47_AM.pt
 
 Files:
-- Item `model.py` - file with the neural net architecture class obect for binary and multi-class classifiers
-- Item  `train_multiclass.py` - file with the train, test, validate functions for the multi-class classifier
-- Item  `train_binary.py` - file with the the train, test, validate functions for the binary classifier
-- Item  `plots.py` - file with the relevant functions for plotting functions
-- Item  `lung_data_loader_with_transform.py` - the data loader object is defined here
+- `model.py` - file with the neural net architecture class obect for binary and multi-class classifiers
+- `train_multiclass.py` - file with the train, test, validate functions for the multi-class classifier
+- `train_binary.py` - file with the the train, test, validate functions for the binary classifier
+- `plots.py` - file with the relevant functions for plotting functions
+- `lung_data_loader_with_transform.py` - the data loader object is defined here
 
 
