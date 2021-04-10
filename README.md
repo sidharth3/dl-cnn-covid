@@ -1,9 +1,8 @@
 #### External Libraries used:
-Pytorch (torch)
-openCV (cv2) (for data augmentation only)
-matplotlib (for plots)
-PIL
-skimage
+- Item  Pytorch 
+- Item  openCV (for data augmentation only)
+- Item  matplotlib 
+- Item  skimage
 
 Main Submission with plots and results - Final_Notebook.ipynb
 
